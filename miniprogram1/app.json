@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/teacher/submit/submit",
+    "pages/my/my",
+    "pages/my/me-info/me-info",
+    "pages/parent/submit/submit",
+    "pages/my/me-info/orders/orders",
+
+    "pages/parent/material_parent/push/push",
+    "pages/parent/material_parent/history/history",
+    "pages/parent/material_parent/material_parent",
+    "pages/teacher/material_teacher/material_teacher",
+    "pages/teacher/material_teacher/assign/assign",
+    "pages/teacher/material_teacher/history/history",
+    "pages/teacher/material_teacher/history/detail/task1",
+    "pages/teacher/material_teacher/check/check",
+    "pages/teacher/material_teacher/check/Info",
+    "pages/teacher/material_teacher/urged/urged",
+
+    "pages/parent/card_parent/ok/ok",
+    "pages/parent/card_parent/punch_card/punch_card",
+    "pages/teacher/card_teacher/abnormalMessage/abnormalMessage",
+    "pages/teacher/card_teacher/DaKaYiChang/DaKaYiChang",
+    "pages/teacher/card_teacher/successSubmit/successSubmit",
+    "pages/teacher/card_teacher/weiDaKa/weiDaKa",
+    "pages/teacher/card_teacher/yiDaKa/yiDaKa",
+
+    "pages/parent/qj_parent/record/record",
+    "pages/parent/qj_parent/ok/ok",
+    "pages/teacher/qj_teacher/approve/approve",
+    "pages/teacher/qj_teacher/tg/tg",
+    "pages/teacher/qj_teacher/wtg/wtg"
+  ],
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#4A6141",
+    "color": "#333",
+    "backgroundColor": "#87CEE8",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home2.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my2.png",
+        "selectedIconPath": "images/my1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEEB",
+    "navigationBarTitleText": "e校通",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于签到定位"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
